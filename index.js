@@ -33,9 +33,8 @@ function displayLegend(legend) {
   selectedLegend.innerHTML = ''
   selectedLegend.className = 'list-item'
 
-  const wrapper = document.createElement('div')
-  wrapper.className = 'legend-wrap'
-  wrapper.innerHTML = `<p>${legend.name}</p>`
+  const legendWrapper = document.createElement('div')
+  legendWrapper.className = 'legend-wrap'
 
   const legendImg = document.createElement('div')
     legendImg.className = 'legend-img'
@@ -45,8 +44,12 @@ function displayLegend(legend) {
   img.alt = legend.name
   legendImg.appendChild(img)
 
-  selectedLegend.appendChild(wrapper)
+  const legendName = document.createElement('div')
+  legendWrapper.innerHTML = `<p>You have selected ${legend.name}</p>`
+
+  selectedLegend.appendChild(legendWrapper)
   selectedLegend.appendChild(legendImg)
+  selectedLegend.appendChild(legendName)
 
         
 }
