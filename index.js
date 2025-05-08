@@ -45,11 +45,12 @@ function displayLegend(legend) {
   legendImg.appendChild(img)
 
   const legendName = document.createElement('div')
-  legendWrapper.innerHTML = `<p>You have selected ${legend.name}</p>`
+  legendName.innerHTML = `<div class="legend-name">You have selected ${legend.name}</div>`
 
+  legendWrapper.appendChild(legendImg)
+  legendWrapper.appendChild(legendName)
+  
   selectedLegend.appendChild(legendWrapper)
-  selectedLegend.appendChild(legendImg)
-  selectedLegend.appendChild(legendName)
 
         
 }
