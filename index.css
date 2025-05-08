@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "duke";
+    src: url('assets/duke/Duke.ttf') format('truetype')
+}
+
+body {
+    font-family: "helvetica", sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-family: "duke", sans-serif;
+    font-size: 48px;
+}
+
+.main {
+    margin: 16px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a:hover {
+    background-color: red;
+}
+
+.primary-button {
+    background-color: red;
+}
+
+.legend-img {
+    max-width: 768px;
+    align-items: center;
+    aspect-ratio: auto;
+}
+
+.legend-img img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}

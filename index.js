@@ -37,29 +37,17 @@ function displayLegend(legend) {
   wrapper.className = 'legend-wrap'
   wrapper.innerHTML = `<p>${legend.name}</p>`
 
-  const imgWrap = document.createElement('div')
-    imgWrap.className = 'img-wrap'
+  const legendImg = document.createElement('div')
+    legendImg.className = 'legend-img'
     
   const img = document.createElement('img')
   img.src = legend.image
   img.alt = legend.name
-  imgWrap.appendChild(img)
+  legendImg.appendChild(img)
 
   selectedLegend.appendChild(wrapper)
-  selectedLegend.appendChild(imgWrap)
+  selectedLegend.appendChild(legendImg)
 
         
 }
 
-/* 
-
-<div class="img-wrap">
-            <img
-            src="${legend.image}"
-            alt="${legend.name}">
-        </div>
-        <div class="name-wrap">
-            <p>${legend.name}</p>
-        </div>
-
-*/
