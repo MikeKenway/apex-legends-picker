@@ -1,4 +1,4 @@
-#Apex Legends Random Legend Select
+# Apex Legends Random Legend Select
 
 **Description**: This is a learning project. The goal here is to allow for a few different random Legend Select features while playing Apex Legends either solo, or with your friends.
 
