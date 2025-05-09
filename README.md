@@ -1,12 +1,12 @@
-**Project Title**: Apex Legends Legend Select
+#Apex Legends Random Legend Select
 
 **Description**: This is a learning project. The goal here is to allow for a few different random Legend Select features while playing Apex Legends either solo, or with your friends.
 
-**Features**: If your project has multiple features, list them here. Don’t be afraid to brag if your project has unique features that make it stand out. You can even add screenshots and gifs to show off the features.
+**Features**: If your progit ject has multiple features, list them here. Don’t be afraid to brag if your project has unique features that make it stand out. You can even add screenshots and gifs to show off the features.
 
 **How to use**: Run directly from your code editor or deploy to your own server.
 
-**Technologies**: Vanilla HTML, CSS, and Javascript. Soon to implement Typescript. 
+**Technologies**: Vanilla HTML, CSS, and Javascript. Soon to implement Typescript.
 
 **Collaborators**: Chat GPT is the homie. So is Knuckles.
 
